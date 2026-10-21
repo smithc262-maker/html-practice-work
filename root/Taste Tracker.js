@@ -7,6 +7,9 @@ let rating = {
 };
 let favFoods = ["Chicken Nuggets", "Burgers", "Ice Cream", "Fries"];
 favFoods.push("Cookies");
+favFoods.slice(2,1);
+favFoods.sort();
+favFoods.length;
 function rateFood(food, rate) {
     return `I give ${food} a rating of ${rate}`;
 }
